@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #ffab73;
+}
+
+nav {
+  margin-top: 5px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: olive;
+}
+
+main {
+  background: #ffd384;
+}
+
+footer {
+  background: #ffaec0;
+}
+
+#about p {
+  font-size: 15px;
+}/*# sourceMappingURL=demo.css.map */

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$header-bgcolor: #ffab73;
+$main-bgcolor: #ffd384;
+$footer-bgcolor: #ffaec0;
+$para-fontsize: 15px;
+
+header {
+  background: $header-bgcolor;
+}
+
+nav {
+  margin-top: 5px;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      margin-right: 5px;
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        color: olive;
+      }
+    }
+  }
+}
+
+main {
+  background: $main-bgcolor;
+}
+
+footer {
+  background: $footer-bgcolor;
+}
+
+#about p {
+  font-size: $para-fontsize;
+}

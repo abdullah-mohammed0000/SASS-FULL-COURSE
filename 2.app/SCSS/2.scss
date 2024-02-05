@@ -1,0 +1,40 @@
+@forward "./base/index";
+@use "./util/index" as variable;
+
+header {
+  background-color: variable.$header_bg;
+}
+
+main {
+  background-color: variable.$main_bg;
+}
+
+@mixin para-style {
+  font-size: 160px;
+  text-align: justify;
+}
+
+#para {
+  @include para-style;
+}
+
+@mixin para-sty($size, $position) {
+  font-size: size;
+  text-align: position;
+}
+
+#para23 {
+  @include para-style(30px, left);
+}
+
+btn {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-download {
+  @extend .btn-download;
+}
